@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <h1>Analisador de números</h1>
+    <div id="quadro">
+        <form>
+            <label for="numero">Número entre 1 e 100: </label>
+            <input type="number" id="numero">
+            <input type="button" value="adicionar" onclick="adicionar()">
+        </form>
+
+        <div id="box"><p id="campoFeedback"></p></div>
+        <input type="button" value="finalizar" onclick="finalizar(array1)">
+
+        <div id="boxRespostas">
+            <p id="totaltxt"></p>
+            <p id="maiortxt"></p>
+            <p id="menortxt"></p>
+            <p id="somatxt"></p>
+            <p id="mediatxt"></p>
+        </div>
+    </div>
+
+    <p id="name">Kevin Luiz</p>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

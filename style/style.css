@@ -1,0 +1,66 @@
+body{
+    font: normal 13pt arial;
+    background-color: #d4d43edc;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#quadro{
+    display: block;
+    min-width: 400px;
+    width: 40vw;
+    min-height: 60vh;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+}
+
+form{
+    padding: 30px 20px;
+    line-height: 250%;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+    -webkit-appearance: none;
+    text-decoration: none;
+    width: 15%;
+}
+
+input[type=button]{
+    font: normal 10pt arial;
+}
+
+#box{
+    margin-left: 20px;
+    background-color: rgba(128, 128, 128, 0.418);
+    width: 25%;
+    border: 2px solid black;
+    visibility: hidden;
+}
+
+#box p{
+    padding-left: 15%;
+    font: normal 10pt arial;
+}
+
+input[value=finalizar]{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#boxRespostas{
+    margin-left: 20px;
+    margin-top: 50px;
+    font: normal 10pt arial;
+    padding-bottom: 30px;
+}
+
+#name{
+    font: normal 10pt arial;
+    text-align: center;
+}
